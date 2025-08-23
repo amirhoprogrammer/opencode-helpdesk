@@ -1,7 +1,9 @@
 function Tickets() {
   return (
-    <main>
-      <h2>tickets</h2>
+    <main className="max-w-5xl my-12 mx-auto px-8">
+      <h2 className="font-bold text-lg" style={{ color: "#7856ff" }}>
+        Tickets
+      </h2>
     </main>
   );
 }
