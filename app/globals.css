@@ -1,15 +1,16 @@
 @import "tailwindcss";
+
 /* base styles */
 body {
-  color: #6b7280; /* text-gray-500 */
-  margin: 2rem; /* m-8 */
-  /*background: #ebf0fa;
-    @apply text-gray-500 m-8;*/
+  /*background-color: #ebf0fa;*/
+  background: #ebf0fa;
+  @apply text-gray-500 m-8;
 }
 
 /*h1,
 h2 {
-  @apply font-bold text-primary text-lg;
+  @apply font-bold text-lg;
+  color: "#7856ff";
 }
 
 main {
@@ -17,16 +18,16 @@ main {
 }*/
 
 main > h2 {
-  margin-bottom: 1rem; /* mb-4 */
-  padding-bottom: 0.5rem; /* pb-2 */
-  font-size: 1rem; /* text-base */
+  margin-bottom: 1rem; /*mb-4 */
+  padding-bottom: 0.5rem; /*pb-2 */
+  font-size: 1rem; /*text-base */
   /*@apply mb-4 pb-2 text-base;*/
 }
 
 p > a {
-  color: #7856ff; /* text-primary, assuming blue-600 */
-  text-decoration: underline; /* underline */
-  /*@apply text-primary underline;*/
+  color: #7856ff; /*text-primary, assuming blue-600 */
+  text-decoration: underline; /*underline */
+  /*@apply underline;*/
 }
 
 /* nav styles */
@@ -45,22 +46,22 @@ nav a:hover {
 }
 
 main nav {
-  border-width: 0; /* border-0 */
+  border-width: 0; /*border-0 */
   /*@apply border-0;*/
 }
 
 /* button styles */
 button {
-  padding-left: 0.75rem; /* px-3 */
-  padding-right: 0.75rem; /* px-3 */
-  padding-top: 0.5rem; /* py-2 */
-  padding-bottom: 0.5rem; /* py-2 */
-  border-radius: 0.125rem; /* rounded-sm */
-  display: flex; /* flex */
-  justify-content: space-between; /* justify-between */
-  align-items: center; /* items-center */
-  gap: 0.5rem; /* gap-2 */
-  font-size: 0.875rem; /* text-sm */
+  padding-left: 0.75rem; /*px-3 */
+  padding-right: 0.75rem; /*px-3 */
+  padding-top: 0.5rem; /*py-2 */
+  padding-bottom: 0.5rem; /*py-2 */
+  border-radius: 0.125rem; /*rounded-sm */
+  display: flex; /*flex */
+  justify-content: space-between; /*justify-between */
+  align-items: center; /*items-center */
+  gap: 0.5rem; /*gap-2 */
+  font-size: 0.875rem; /*text-sm */
   /*@apply px-3 py-2 rounded-sm flex justify-between items-center gap-2 text-sm;*/
 }
 
@@ -70,8 +71,8 @@ button:hover {
 }
 
 .btn-primary {
-  background-color: #7856ff; /* bg-primary, assuming blue-600 */
-  color: #ffffff; /* text-white */
+  background-color: #7856ff; /*bg-primary, assuming blue-600 */
+  color: #ffffff; /*text-white */
   /*@apply bg-primary text-white;*/
 }
 
