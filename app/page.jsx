@@ -20,18 +20,16 @@ export default function Home() {
       <h2 className="font-bold text-lg" style={{ color: "#7856ff" }}>
         Company Updates
       </h2>
-      {/*className="card"*/}
-      <div className="bg-white shadow-sm rounded-md py-3 px-4 my-4 relative overflow-hidden">
-        <h3 className="font-bold text-gray-700 text-sm mb-0">New member of the web dev team...</h3>
-        <p className="my-4 text-sm leading-6">
+      <div className="card">
+        <h3>New member of the web dev team...</h3>
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, at quam. Dolores omnis
           possimus quam soluta rerum illo laborum ullam pariatur molestiae, modi beatae corrupti.
         </p>
       </div>
-      {/*className="card"*/}
-      <div className="bg-white shadow-sm rounded-md py-3 px-4 my-4 relative overflow-hidden">
-        <h3 className="font-bold text-gray-700 text-sm mb-0">New website live!</h3>
-        <p className="my-4 text-sm leading-6">
+      <div className="card">
+        <h3>New website live!</h3>
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, at quam. Dolores omnis
           possimus quam soluta rerum illo laborum ullam pariatur molestiae, modi beatae corrupti,
           assumenda distinctio adipisci, cupiditate minima eum vitae? Similique dicta est facilis
