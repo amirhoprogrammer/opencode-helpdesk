@@ -1,10 +1,8 @@
 import Link from "next/link";
 export default function Home() {
   return (
-    <main className="max-w-5xl my-12 mx-auto px-8">
-      <h2 className="font-bold text-lg" style={{ color: "#7856ff" }}>
-        Dashboard
-      </h2>
+    <main>
+      <h2>Dashboard</h2>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero repellendus tempore,
         exercitationem odit, quasi doloremque possimus recusandae alias sequi totam soluta natus
@@ -17,9 +15,7 @@ export default function Home() {
           <button className="btn-primary">View Tickets</button>
         </Link>
       </div>
-      <h2 className="font-bold text-lg" style={{ color: "#7856ff" }}>
-        Company Updates
-      </h2>
+      <h2>Company Updates</h2>
       <div className="card">
         <h3>New member of the web dev team...</h3>
         <p>
@@ -40,5 +36,3 @@ export default function Home() {
     </main>
   );
 }
-/* main  */
-/* h2 h1 */
