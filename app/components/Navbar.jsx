@@ -13,7 +13,7 @@ function Navbar() {
       </Link>
       <br />
       <Link href="/tickets" className="text-gray-500">
-        tickets
+        Tickets
       </Link>
     </nav>
   );
