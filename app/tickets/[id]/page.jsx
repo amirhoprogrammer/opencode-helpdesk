@@ -1,3 +1,4 @@
+import { notFound } from "next/navigation";
 export async function generateStaticParams() {
   const res = await fetch("http://localhost:4000/tickets/");
   const tickets = await res.json();
@@ -10,7 +11,10 @@ async function getTickets(id) {
       revalidate: 60,
     },
   });
-  if (!res.ok) throw new Error("Failed to fetch tickets");
+  if (!res.ok) {
+    notFound();
+  }
+  //if (!res.ok) throw new Error("Failed to fetch tickets");
   return res.json();
 }
 //if (!res.ok) throw new Error("Failed to fetch tickets");
