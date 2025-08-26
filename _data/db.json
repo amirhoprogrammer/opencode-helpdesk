@@ -20,6 +20,27 @@
       "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
       "priority": "high",
       "user_email": "bahram@opencode.dev"
+    },
+    {
+      "id": "79a1",
+      "title": "next.js",
+      "body": "Used by some of the world's largest companies, Next.js enables you to create high-quality web applications with the power of React components.",
+      "priority": "high",
+      "user_email": "amihanegareshi@gmail.com"
+    },
+    {
+      "id": "8118",
+      "title": "The Build Tool for the Web",
+      "body": "Vite is a blazing fast frontend build tool powering the next generation of web applications.",
+      "priority": "medium",
+      "user_email": "amihanegareshi@gmail.com"
+    },
+    {
+      "id": "b05e",
+      "title": "Rapidly build modern websites without ever leaving your HTML.",
+      "body": "A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.",
+      "priority": "low",
+      "user_email": "amihanegareshi@gmail.com"
     }
   ]
 }

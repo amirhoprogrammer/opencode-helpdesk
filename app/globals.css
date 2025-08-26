@@ -66,8 +66,9 @@ button:hover {
 
 /* form styles */
 form {
-  bg-primary: #7856ff @apply py-4 px-7 bg-primary bg-opacity-5 rounded-md block mx-auto min-w-fit
-    w-1/4;
+  background-color: rgba(37, 99, 235, 0.05);
+  @apply py-4 px-7  rounded-md block mx-auto min-w-fit w-1/2;
+  /*bg-primary bg-opacity-5 bg-primary: #7856ff*/
 }
 
 form label {
@@ -77,7 +78,7 @@ form label {
 form input,
 form textarea,
 form select {
-  @apply block mt-2 my-4 px-2 py-1 rounded-sm w-full;
+  @apply block mt-2 my-4 px-2 py-1 rounded-sm w-full bg-white;
 }
 
 form button {
