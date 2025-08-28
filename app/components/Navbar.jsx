@@ -13,6 +13,9 @@ function Navbar() {
       <Link href="/tickets" className="text-gray-500">
         Tickets
       </Link>
+      <Link href="/create" className="text-gray-500">
+        Create
+      </Link>
     </nav>
   );
 }
