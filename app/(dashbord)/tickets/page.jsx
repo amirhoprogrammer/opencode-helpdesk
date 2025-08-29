@@ -1,6 +1,11 @@
 import { Suspense } from "react";
 import TicketList from "./TicketList";
 import Loading from "./loading";
+
+export const metadata = {
+  title: "OpenCode HelpDesk | Tickets",
+};
+
 function Tickets() {
   return (
     <main>
