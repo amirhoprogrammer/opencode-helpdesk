@@ -35,5 +35,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-When you click on the http://localhost:3000/ you see this pictures this the homepage of my project
-![Screenshot of http://localhost:3000/](https://myoctocat.com/assets/images/base-octocat.svg)
+When you click on the http://localhost:3000/ you see this pictures this the homepage of my project.
+
+![Screenshot of http://localhost:3000/](https://github.com/amirhoprogrammer/opencode-helpdesk/blob/master/public/readme%20picture/Screenshot%202025-11-08%20083441.png)
+
+and when tou click this link http://localhost:4000/tickets you see this page
+
+![Screenshot of http://localhost:3000/](https://github.com/amirhoprogrammer/opencode-helpdesk/blob/master/public/readme%20picture/Screenshot%202025-11-08%20083457.png)
+
